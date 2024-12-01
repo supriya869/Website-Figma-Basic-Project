@@ -34,4 +34,4 @@ This project demonstrates a simple webpage layout with a navigation bar, content
 2. Open `index.html` in your web browser.
 
 ```bash
-git clone <repository-url>
+git clone <(https://github.com/supriya869/Website-Figma-Basic-Project/blob/main/README.md?plain=1)>
