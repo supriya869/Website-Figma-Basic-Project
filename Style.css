@@ -1,0 +1,700 @@
+/* Resetting default margin and padding */
+html, body {
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+    box-sizing: border-box; 
+}
+
+
+/* Navbar styling */
+.navbar {
+    width: 1275.72px; /* Adjusted width */
+    height: 32px; /* Adjusted height */
+    position: absolute;
+    top: 58.95px; /* Adjusted vertical position */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Ensure exact centering */
+    background: linear-gradient(99.98deg, rgba(255, 255, 255, 0.12) 3.7%, rgba(236, 236, 236, 0.03) 108.29%);
+    border: 1px solid #D3D3D3; /* Light cement color */
+    border-radius: 8px; /* Rounded corners */
+    gap: 845px; /* Horizontal spacing for child elements */
+    opacity: 1; /* Ensure full visibility */
+    box-sizing: border-box; /* Include padding and borders in size */
+    z-index: 10; /* Keep it above the background */
+    margin-top: 20px;
+}
+
+
+/* Background container with gradient */
+
+
+.background-container {
+    width: 1540px;  /* Keep the same width */
+    height: 300px;  /* Decreased height */
+    position: absolute;
+    top: 0.15px;
+    left: 0.21px;
+    padding: 190px 295px 300px 295px;  /* Keep the padding as is */
+    box-sizing: border-box;
+    background: linear-gradient(319.26deg, #FEEFC7 -2.44%, #E3F1E7 75.19%);
+}
+/*padding: 50px 295px 200px 295px;*/
+
+
+
+
+
+/* Navbar Styling */
+.navbar {
+    width: 1275.72px; /* Adjusted width */
+    height: 32px; /* Adjusted height */
+    position: absolute;
+    top: 10px; /* Adjusted vertical position */
+    padding-left: 10dp;
+    transform: translateX(-50%); /* Ensure exact centering */
+    background: linear-gradient(99.98deg, rgba(255, 255, 255, 0.12) 3.7%, rgba(236, 236, 236, 0.03) 108.29%);
+    border: 1px solid #D3D3D3; /* Light cement border */
+    border-radius: 8px; /* Rounded corners */
+    display: flex; /* Enable Flexbox */
+    justify-content:start; /* Center content horizontally */
+    box-sizing: border-box; /* Include padding and borders in size */
+    z-index: 10; /* Ensure it's above other content */
+   
+   
+}
+
+/* Content Styling */
+.nav-content {
+    display: flex; /* Align items horizontally */
+    align-items: center; /* Center items vertically */
+    gap: 10px; /* Add spacing between elements */
+}
+
+/* Logo Styling */
+.logo {
+    height: 14px; /* Adjust as needed */
+    width: auto; /* Maintain aspect ratio */
+    margin-left: 22.21px;
+}
+
+/* Wordmark Styling */
+.bright {
+    font-weight:caveat;
+    font-size: 20px; /* Adjust font size */
+    color: black;
+    font-family:Bold;
+}
+
+.apps-text {
+    color: rgba(120, 127, 136, 1); /* Sets the text color */
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: -25px;
+    margin-top: 10px;
+    
+   
+}
+
+.appleicon, .playstoreicon {
+    height: 18px; /* Adjust size as needed */
+    width: auto; /* Maintain aspect ratio */
+
+    margin-top: 5px;
+
+   
+}
+
+/* Styling for bold part */
+.paycredits-bold {
+    font-family: 'Gilroy', sans-serif; /* Ensure this font is imported or available */
+    font-size: 60px;
+    font-weight: 700; /* Bold style */
+    line-height: 96px;
+    letter-spacing: -1px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-left: 150px;
+    margin-top: -145px;
+  /* Remove default margin */  
+}
+
+/* Styling for normal part */
+.paycredits-normal {
+    font-family: 'Gilroy', sans-serif;
+    font-size: 50px;
+    font-weight: 400; /* Normal weight */
+    line-height: 96px;
+    margin-top: -60px;
+    letter-spacing: -1px;
+    margin-left:120px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    display: block; /* Ensures it appears on a new line */
+    margin-bottom: 50px;
+}
+/* Container for each box */
+/* Container for the tick and text */
+/* Wrapper to control spacing between boxes */
+.tick-text-container-wrapper {
+    display: flex;
+    justify-content: space-between; /* Spaces out each tick and text pair */
+    width: 100%;
+    margin-top: -40px;
+    margin-left: 80dp;
+}
+
+/* Container for the tick box and text */
+.tick-text-container {
+    display: flex;
+    align-items:center;
+    margin-bottom: 15px; /* Space between items if needed */
+    flex: 1; /* Allow each container to grow */
+    gap: 20px; /* Space between the box and text */
+}
+/* Adding space after the second tick-text container */
+.tick-text-container:nth-child(2) {
+    margin-right: 50px;  /* Adjust the value to your desired spacing */
+}
+
+
+/* Style for the tick box */
+.tick-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid green; /* Green border */
+    border-radius: 5px; /* Rounded corners */
+    width: 20px; /* Width of the box */
+    height: 15px; /* Height of the box */
+}
+
+/* Style for the tick icon */
+.tick-icon {
+    color: black; /* Green color for the tick */
+    font-size:20px; /* Adjust size as needed */
+    margin-top: 30dp;
+    margin-left: 80dp; 
+}
+/* Style for the text */
+.tick-text {
+    font-family: 'Gilroy'; /* Ensure the font is imported */
+    font-size: 16px; /* Adjust size as needed */
+    color: #000; /* Black text color */
+    margin-top: 30dp;
+    margin-left: 80dp; 
+}
+.container {
+    position: relative; /* Ensure the right image is positioned relative to the container */
+    display: flex;
+    align-items: flex-start; /* Align content to the top */
+    justify-content: space-between; /* Push images to the far left and far right */
+    width: 100%;
+    margin-top: 20px; /* Optional spacing from the top */
+}
+
+
+.image-wrapper img {
+    width: 200px; /* Default width for images */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Ensure images scale proportionally */
+}
+
+.image-wrapper.right {
+    position: absolute; /* Position the green icon at the top-right corner */
+    top: 20px; /* Adjust distance from the top */
+    right: 20px; 
+   
+}
+.image-wrapper {
+    display: flex; /* Enable flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 100%; /* Full-width container */
+    margin-top: 20px; /* Optional spacing from the top */
+}
+
+
+
+
+.signup-image {
+    width: 50%; /* Stretch image to 100% of the container */
+    max-width: 5000px; /* Set max width to 50000px */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Block-level rendering */
+    margin: 0 auto;
+    margin-left:200px;
+    margin-right: 200px;
+   /* Center the image horizontally */
+ 
+}
+.gereen-image {
+    width: 150px; /* Adjust size of the green icon */
+    height: auto; /* Maintain aspect ratio */
+  margin-top: 40px;
+ margin-left: -280px;
+margin-right:290px;
+ 
+}
+p {
+    text-align: center; /* Center align the entire paragraph */
+   
+  /* Adjusted to move the paragraph 20px to the right */
+    margin-right: 50px;
+}
+
+
+.bold-text {
+    font-weight: bold; 
+    font-size: 20px;/* Make the selected text bold */
+    margin-top: 1000px;
+  
+ 
+}
+.normal{
+    font-size: 20px;
+   
+   
+}
+.space{
+   margin-top: -260px;
+}
+.cement-line {
+    border: 0; /* Remove default borders */
+    border-top: 1px solid #D3D3D3; /* Light cement color (light gray) */
+    /* Add spacing above and below the line */
+    margin-top: -30px;
+}
+.footer.image {
+    width: 100%; /* Adjust to a percentage or fixed pixel value */
+    height: auto; /* Maintain the aspect ratio */
+    object-fit: contain;
+    margin-top: 20px;
+  
+    /* Ensure the image scales proportionally */
+}
+.image{
+    width:100%;/* Adjust to a percentage or fixed pixel value */
+  
+    background-color: 1px solid #D3D3D3;/* Ensure the image scales proportionally */
+    height: 100px; /* Adjust the height of the footer */
+   margin-top: 30px;
+    
+   
+}
+.footer-image-container {
+    background-color: #d4d4d4; /* Cement-like light gray color */
+    padding: 10px; /* Optional padding for spacing around the image */
+    text-align: center; /* Centers the content inside */
+    display: inline-block; /* Ensures the background only wraps the content */
+    border-radius: 5px; /* Optional rounded corners */
+}
+
+
+.footer-background {
+    background-color: rgba(246, 254, 247, 1); /* Cement-like background */
+    width: 1700px; /* Full width of the viewport */
+    height: 700px;  /* Fixed height */
+    padding: 120px 252px; /* Apply padding */
+    box-sizing: border-box; /* Include padding in dimensions */
+    opacity: 1; /* Fully visible */
+   margin-left: -400px;
+   text-align: center;
+   margin-top: 20px;
+   font-size: 30px;
+   padding: 10px;
+ 
+}
+/* Bold text styling */
+.title-text {
+    font-weight: bold;
+    font-size: 30px; /* Adjust as needed */
+    color: #000; /* Default black color */
+    top: -60px;
+    margin: 10px 0;
+}
+
+/* Normal text styling */
+.subtitle-text {
+    font-size: 30px; /* Adjust as needed */
+    color: #555;
+    top: -60px; 
+    margin: 10px 0;/* A lighter shade of black for distinction */
+}
+
+/* Line styling */
+.divider-line {
+    border: 1px solid; /* Set the border width */
+    border-image-source: linear-gradient(270deg, rgba(213, 215, 219, 0) 5.73%, #BAE8CB 84.9%);
+    border-image-slice: 1; /* Ensures the gradient spans the entire border */
+    width: 50%; /* Set the width of the divider */
+    margin: 10px auto; /* Centers the divider */
+}
+
+
+/* Styling for the footer container */
+
+
+/* Styling for the paragraph and text */
+p {
+    margin: 40px; /* Ensure no extra margin above or below the paragraph */
+    padding: 0; /* Remove padding */
+}
+
+/* Styling for the image */
+
+/* Container for the entire phone section */
+.phone-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Phone image section */
+  .phone-icon {
+    background-color: white; /* Rounded white background */ /* Makes the background round */
+    padding: 10px; /* Adds some spacing around the image */
+    display: flex;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for better appearance */
+    margin-left: 500px;
+    
+  }
+  
+  
+  .phone-tick {
+    width: 150px; /* Decrease size of the image */
+    height: 150px; /* Adjust height to match width */
+   /* Ensures the image scales proportionally */
+   
+  }
+  
+  /* Text section */
+  .phone-text p {
+    font-size: 16px; /* Adjust the font size as needed */
+    color: #333; /* Text color */
+    text-align: center;
+   margin-left: 30px;
+    margin-top: -30px;
+
+    
+  }
+ 
+ 
+  .phone-text .tex-boldcolor {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(23, 201, 95, 1); /* Applying the desired font color */
+    margin-left: -110px;
+    margin-top: 30px;
+}
+.boldstyle {
+    font-weight: bold; /* Makes the text bold */
+    font-size: 40px; /* You can adjust the font size as needed */
+    color: #333; /* Optional: Set a color for the text */
+  
+}
+.paragraphtexting {
+    font-size: 18px; /* You can adjust the font size */
+    color: #666; /* Set a color for the paragraph text */
+    margin-top: 10px; /* Adds space above the paragraph text */
+    justify-content: flex-start; 
+}
+.apply-container {
+    margin-top: -20px; /* Moves the container up */
+    padding-top: 10px; /* Optional: Adds some padding at the top */
+}
+
+
+.leftparagraph {
+    font-size: 10px; /* Adjusts font size */
+    font-weight: bold; /* Makes the text bold */
+    color: #333; /* Sets the text color */
+    margin-left: 20px; /* Adds space to the left of the text */
+    margin-top: -43px; /* Adds some space at the top */
+    padding-left: 10px; /* Optional: Adds padding to the left */
+    line-height: 1.5; /* Adjust line height for better readability */
+    display: flex; /* Enables flexbox layout */
+    align-items: center; /* Vertically centers the content */
+    justify-content: flex-start; /* Keeps the text on the left */
+}
+@keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+.apply {
+    font-size: 14px; /* Decreased size of the "Apply Now" text */
+    margin-right: 10px; /* Adds space between the text and the arrow */
+    margin-left: 30px; 
+    margin-top: 30px;/* Moves the text 30px to the right */
+    animation: blink 1.5s infinite; 
+}
+
+.arrowimage {
+    width: 20px; /* Set the size of the arrow */
+    height: 20px; 
+    margin-top: 30px;
+    animation: blink 1.5s infinite; 
+   
+}
+.divider-container {
+    margin-top: 10px; /* Adds space between the arrow and the line */
+}
+
+.divider-line {
+    border: 1px solid; /* Set the border width */
+    border-image-source: linear-gradient(270deg, rgba(213, 215, 219, 0) 5.73%, #BAE8CB 84.9%);
+    border-image-slice: 1; /* Ensures the gradient spans the entire border */
+    width: 50%; /* Set the width of the divider */
+    margin: 10px auto; /* Centers the divider */
+}
+.secondimage{
+    width: 200px; /* Decrease size of the image */
+    height: 200px; /* Adjust height to match width */
+    margin-left:300px;
+
+}
+.tex-boldcolor2{
+    margin-top: -190px;
+    margin-left: -640px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(23, 201, 95, 1); /* Applying the desired font color */
+}
+.boldstyletextwe{
+    font-weight: bold; /* Makes the text bold */
+    font-size: 15px; /* You can adjust the font size as needed */
+    color: #333; /* Optional: Set a color for the text */
+    margin-left: -400px;
+    margin-top: -30px;
+}
+.refinetextS{
+    font-size: 15px; /* You can adjust the font size *//* Set a color for the paragraph text */
+   /* Adds space above the paragraph text */
+    justify-content: flex-start; 
+    margin-left: -400px;
+    margin-top: -30px;
+ 
+    
+}
+.applynow {
+    font-size: 14px; /* Decreased size of the "Apply Now" text */
+    margin-right: 10px; /* Adds space between the text and the arrow */
+    margin-left: 30px; 
+    margin-top: 30px;
+    margin-left: 450px;
+    animation: blink 1.5s infinite; 
+}
+.thirdimage{
+    width: 200px; /* Decrease size of the image */
+    height: 200px; /* Adjust height to match width */
+    margin-left: -500px;
+
+}
+.tex-boldcolor3{
+    margin-top: -190px;
+    margin-left: -10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(23, 201, 95, 1); /* Applying the desired font color */
+  
+}
+.boldstyletextwearetext{
+    margin-left: 230px;
+    margin-top: -30px;
+    font-weight: bold; /* Makes the text bold */
+    font-size: 15px; /* You can adjust the font size as needed */
+    color: #333; /* Optional: Set a color for the text */
+    
+}
+.refinetextSthird{
+    font-size: 15px; /* You can adjust the font size *//* Set a color for the paragraph text */
+    /* Adds space above the paragraph text */
+     justify-content: flex-start; 
+     margin-top: -30px;
+     margin-right: -110px;
+
+}
+.applynowww {
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: -90px; /* Adjust this value as needed */
+    animation: blink 1.5s infinite; 
+}
+
+.arrowimageee{
+    width: 20px; /* Set the size of the arrow */
+    height: 20px; 
+    margin-top: -40px; /* Adjust the positioning of the arrow */
+}
+.boldstyletextwearetext334{
+    margin-top: 40px;
+    font-weight: bold;
+ 
+    font-size: 40px;
+}
+.refinetextSthirdrty{
+   
+    margin-top: -30px;
+
+}
+/* Styles for the container that holds the boxes */
+.flexcontainer {
+    display: flex;
+    justify-content: space-between; /* Space between the boxes */
+    gap: 5px; /* Adds 10px space between the boxes */
+    flex-wrap: wrap; /* Ensures the boxes wrap when the screen is small */
+    padding: 20px;
+    margin-top: 20px;
+    animation: blink 4.5s infinite !important;
+}
+
+/* Styles for individual boxes */
+.box {
+    background-color: #D3D3D3; /* Light cement color */
+    width: 200px; /* Set width of the box */
+    height: 200px; /* Set height of the box to accommodate text */
+    padding: 10px;
+    text-align: center; /* Centers the text inside the box */
+    box-sizing: border-box;
+    border-radius:20%; /* Includes padding in the box dimensions */
+}
+
+/* Flexbox for displaying stars side by side */
+.star-line {
+    margin-left: 50px;
+    display: flex;
+    /* Aligns the stars side by side */
+    margin-bottom: 10px; /* Adds space between the stars and the text below */
+}
+
+/* Styles for individual stars */
+.star {
+    width: 20px; /* Adjust the size of the stars */
+    height: auto; /* Ensures that the aspect ratio of the stars is maintained */
+}
+
+/* Styles for the text inside each box */
+.box-text {
+    margin-top: 30px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #333;
+}
+.anima{
+    font-weight: bold;
+
+}
+.btext{
+    font-size: 15px;
+    font-weight: bold;
+}
+.textstylebold{
+    font-size: 30px;
+    font-weight: bold;
+}
+.normalstylebold{
+    font-size: 30px;
+
+}
+.paragraphtext {
+    display: inline-flex; /* Align text and image inline */
+    justify-content: flex-start; /* Ensure text aligns to the left */
+    align-items: center; /* Vertically center the tick mark */
+    margin-right: 60px; /* Add space to the right of the paragraph */
+    font-size: 16px; /* Adjust font size */
+    margin: 0; /* Remove default margin */
+}
+
+.tickmarking {
+    width: 20px; /* Set the tickmark width */
+    height: 20px; /* Set the tickmark height */
+    margin-left: 10px;
+    gap:60px; /* Add spacing between text and tickmark */
+    margin-left: 510px;
+}
+.tickmarking22{
+    width: 20px; /* Set the tickmark width */
+    height: 20px; /* Set the tickmark height */
+    margin-left: 10px;
+    gap:60px; /* Add spacing between text and tickmark */
+    margin-left: 560px;
+
+
+}
+.paragraphtext2{
+    margin-top: 30px;
+    margin-left: -50px;
+}
+.paragraphtext3{
+    margin-top: 20px;
+    margin-left: -40px;
+}
+.paragraphtext4{
+    margin-top: 20px;
+    margin-left: -40px;
+}
+.imageurl{
+    margin-left: -500px;
+    height: 480px;
+    width:
+    1920px;
+
+}
+.imagesoflast {
+    width:900px;
+    margin-left: -10px; /* Move the image to the left */
+    margin-top: 50px;
+   
+   
+}
+.cement-linenewcemnt{
+    border: 0; /* Remove default borders */
+    border-top: 1px solid #D3D3D3; /* Light cement color (light gray) */
+    /* Add spacing above and below the line */
+    margin-top: 20px;
+
+}
+.carousel-container {
+    overflow: hidden;
+    width: 800px; /* Adjust as needed */
+    margin: 0 auto;
+    position: relative;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel img {
+    width: 25%; /* Set fixed width */
+    margin-right: 10px;
+}
+
+#prev-btn, #next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#prev-btn {
+    left: 10px;
+}
+
+#next-btn {
+    right: 10px;
+}
+
+
