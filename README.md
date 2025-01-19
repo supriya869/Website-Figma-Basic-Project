@@ -1,5 +1,6 @@
 # Website-Figma-Basic-Project
 # Navbar with Icons
+Link of my project:https://2tyxk5.csb.app/
 
 This project demonstrates a simple webpage layout with a navigation bar, content sections, and a footer. It includes several interactive features such as scrolling images and carousel-like behavior.
 
